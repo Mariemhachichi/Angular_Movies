@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Film, FilMS } from '../models/film';
 
 @Component({
   selector: 'app-home',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  films: Film[] = FilMS;
 }
